@@ -1,0 +1,87 @@
+.p-5 form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.395);
+    border-radius: 20px;
+    }
+.p-5 form .input{
+    box-sizing: border-box;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 15px;
+    width: 90%;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.p-5 form label{
+  text-align: justify;
+}
+.p-5 form .region{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+
+}
+.p-5 form .region .region1{
+  margin-right: 5px;
+}
+.p-5 form .region .region2{
+  margin-left: 5px;
+}
+.p-5 form select{
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 15px;
+  width: 80%;
+}
+.p-5 form .gusto{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-items: start;
+  margin-bottom: 10px;
+}
+.p-5 form .gusto label{
+  margin-right: 10px;
+}
+.radio{
+  margin-right: 5px;
+}
+.checkLabel{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-bottom: 10px;
+}
+.checkCond{
+  border: none;
+  vertical-align: middle;
+  margin-right: 5px;
+  justify-items: start;
+}
+textarea{
+  width: 90%;
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 90%;
+  min-width: 90%;
+}
+.buttonForm{
+  box-sizing: border-box;
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 15px;
+  width: 100px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="descripcion" content=" Art-Privado es un sitio que comparte el arte en forma gratuita">
+  <meta name=" keywords" content="Arte,Pintura argentina,cuadros,Pintores,colecciones privadas,">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="./../styles/ estilos.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+<body>
+  <div class="grid-container">
+    <header class="navbar">
+      <h1><img src="./../assets/small.png"alt="logo"></h1>
+      <nav>
+        <!-- Enlaces de la barra de navegacion -->
+        <ul>
+          <li><a href="./../index.html">Inicio</a></li>
+          <li><a href="./../pages/about.html">Sobre nosotros</a></li>
+          <li><a href="./../pages/gallery.html">Galeria</a></li>
+          <li><a href="./../pages/contact.html">Contacto</a></li>
+          <li><a href="https://www.youtube.com/embed/y23fn1lE-VQ" title="YouTube video player">Entrevista</a></li>
+          <li><a href="https://www.instagram.com" target="_blank"> Instagram!</a></li>
+        <!-- Fin de los enlaces de la barra de navegacion  -->
+      </nav>
+      <!-- Fin de la barra de la navegacion  -->
+    </header>
+  </div>
+  <section class="p-5">
+    <form>
+      <h1>Contacto</h1>
+      <input class="input" type="text" id="nombre" placeholder="Nombre"/>
+      <input class="input" type="text" id="apellido" placeholder="Apellido"/>
+      <input class="input" type="tel" id="telefono" placeholder="Ingresa tu telefono" maxlength="10" />
+      <input class="input" type="email" id="mail" placeholder="Ingresa tu email" />
+      <div class="region">
+        <select class="region1">
+          <option selected="selected">Pais</option>
+          <option>Argentina</option>
+        </select>
+        <select class="region2">
+          <option selected="selected">Provincia</option>
+          <option>Buenos Aires</option>
+          <option>Provincia </option>
+          <option>Santa fe</option>
+          <option>Salta</option>
+          <option>cordoba</option>
+        </select>
+      </div>
+      <div class="gusto">
+        <label>Te gusto la Pagina:</label>
+        <div>
+            <input class="check" type="radio" id="check1" name="Genero">
+            <label for="check1">Si</label>   
+        </div>
+        <div>
+            <input class="check" type="radio" id="check2" name="Genero">
+            <label for="check2">No</label>                            
+        </div>
+      </div>
+      <div class="checkLabel">
+        <input class="checkCond" type="checkbox" id="check3" checked><label for="check3">Quiero recibir info sobre nuestras exposiciones</label>
+      </div>
+      <div class="checkLabel">
+        <input class="checkCond" type="checkbox" id="check3" checked><label for="check3">Acepto los Terminos y Condiciones</label>
+      </div>
+      <textarea class="input" id="comentarios" placeholder="Dejanos tu Comentario"></textarea>
+      <div class="botones">
+        <input class="buttonForm" type="button" value="Enviar">
+        <input class="buttonForm" type="reset" value="Restablecer">
+      </div>      
+    </form>
+  </section>
+    <div class="row bg-primary">
+      <footer>
+        <ul>
+          <li><a href="./../pages/contact.html">Contacto</a></li>
+          <li><a href="https://www.instagram.com" target="_blank"> Instagram!</a></li>
+        </ul>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>

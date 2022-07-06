@@ -1,0 +1,28 @@
+.header {
+    border-bottom: 01px solid #cccccc;
+  }
+  .navbar {
+    display: flex;     
+    flex-direction: row; 
+    justify-content: space-between;
+    align-content: center;
+    padding: 3rem; 
+    a{
+      padding: 0.5rem;
+      background-color: #f6fa10;
+      border-radius: 0.5rem;
+      color: #1310e2;
+    }
+    ul{
+      display: flex;
+      gap: 1rem;
+
+    }
+    a:hover {
+      background-color: rgb(206, 97, 208);
+  }
+    
+}
+header, footer, article, aside, section{
+  background-color: rgba(137, 195, 248, 0.599);
+}
