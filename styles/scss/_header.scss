@@ -9,7 +9,7 @@
     padding: 3rem; 
     a{
       padding: 0.5rem;
-      background-color: #f6fa10;
+      background-color: map-get($coloresFondo, amarillo);
       border-radius: 0.5rem;
       color: #1310e2;
     }
@@ -19,10 +19,13 @@
 
     }
     a:hover {
-      background-color: rgb(206, 97, 208);
+      background-color: map-get($coloresFondo, verde );
   }
     
 }
 header, footer, article, aside, section{
-  background-color: rgba(137, 195, 248, 0.599);
+  background-color:map-get($coloresFondo, celeste );
+}
+.d-block {
+  border: 10px solid #a7b2b7ff;
 }
