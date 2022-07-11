@@ -29,3 +29,8 @@ header, footer, article, aside, section{
 .d-block {
   border: 10px solid #a7b2b7ff;
 }
+footer{
+  display: flex;
+  width: 100%;
+  padding: 0;
+}

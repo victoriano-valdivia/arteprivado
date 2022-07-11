@@ -38,9 +38,19 @@ header, footer, article, aside, section {
   border: 10px solid #a7b2b7;
 }
 
+footer {
+  display: flex;
+  width: 100%;
+  padding: 0;
+}
+
 body {
   font-family: Vegur, "PT Sans", Verdana, sans-serif;
   background-color: #0c0c59;
+}
+
+.articulos {
+  height: 100vh;
 }
 
 .section {
@@ -72,7 +82,7 @@ body {
 .grid-container {
   display: grid;
   grid-template-areas: "header" "footer";
-  width: 100%;
+  width: auto;
 }
 
 @media (max-width: 1200px) {
