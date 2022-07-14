@@ -49,10 +49,6 @@ body {
   background-color: #0c0c59;
 }
 
-.articulos {
-  height: 100vh;
-}
-
 .section {
   display: flex;
   flex-direction: row;
