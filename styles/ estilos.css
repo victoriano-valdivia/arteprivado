@@ -46,9 +46,8 @@ footer {
 
 body {
   font-family: Vegur, "PT Sans", Verdana, sans-serif;
-  background-size: 100% 100%;
-  min-width: 100vh;
-  background-color: #0c0c59;
+  background-color: rgba(132, 237, 247, 0.9568627451);
+  min-height: 100vh;
 }
 
 .section {
